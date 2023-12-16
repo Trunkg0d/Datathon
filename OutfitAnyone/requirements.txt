@@ -1,0 +1,17 @@
+opencv-python
+IPython
+gradio==3.41.2
+gradio-client==0.5.0
+dominate==2.6.0
+imageio
+ipython
+lpips==0.1.3
+matplotlib
+numpy
+pandas
+Pillow
+scikit-image
+tensorboard
+tensorboardX
+tifffile==2020.9.3
+tqdm
