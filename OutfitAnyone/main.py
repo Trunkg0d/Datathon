@@ -10,7 +10,7 @@ exp_name = 'DIORv1_64' # DIOR_64
 epoch = 'latest'
 netG = 'diorv1' # dior
 ngf = 64
-absolute_dir = "D:\OutfitAnyone\output"
+absolute_dir = "D:\Datathon\OutfitAnyone\output"
 
 ## this is a dummy "argparse"
 class Opt:
@@ -155,10 +155,10 @@ def pose_transfer(pid, pose_id, dir=""):
     dir += ("/" + pid[0])
     plot_gen_img(pimg, gimgs, oimgs, gen_img, pose, dir=dir)
 
-pose_transfer_dir = "\pose_transfer"
-pid = ("test_image_1.jpg", None, None)
-pose_id = ("test_image_1.jpg", None, None)
-pose_transfer(pid=pid, pose_id=pose_id, dir=pose_transfer_dir)
+# pose_transfer_dir = "\pose_transfer"
+# pid = ("test_image_1.jpg", None, None)
+# pose_id = ("test_image_1.jpg", None, None)
+# pose_transfer(pid=pid, pose_id=pose_id, dir=pose_transfer_dir)
 
 def tucking_in_out(pid, gids, tuking_in=0, dir=""):
     if tuking_in:
@@ -184,10 +184,10 @@ def layering(pid, gids, ogids=[], multi_layer=0, dir=""):
 
     plot_gen_img(pimg, gimgs, oimgs, gen_img, pose, dir=dir)
 
-layering_dir = "\layering"
-pid = ('test_image_1.jpg',None, None)
-gids = [('garment_nike.jpg', None, 5)]
-layering(pid, gids, dir=layering_dir)
+# layering_dir = "\layering"
+# pid = ('test_image_1.jpg',None, None)
+# gids = [('garment_nike.jpg', None, 5)]
+# layering(pid, gids, dir=layering_dir)
 
 # multi_layering_dir = "\multi_layering"
 # pid = ('fashionMENDenimid0000056501_7additional.jpg', None, None)
