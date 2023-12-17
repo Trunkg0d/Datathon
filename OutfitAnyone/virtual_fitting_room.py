@@ -12,7 +12,7 @@ target_file = None
 # 'bottom':1,
 # 'hair':2,
 # 'jacket':3
-link_chatbot = "https://9ede-115-73-213-165.ngrok-free.app/?fbclid=IwAR3XBe74e6J9WGtz8nnEMnMnYuSS6PF2QIrViasuutnjEz8PfCPWrDycrLw"
+link_chatbot = "https://l.facebook.com/l.php?u=https%3A%2F%2Fe501-2001-ee0-1b03-bd65-8067-bcac-3546-d6f5.ngrok-free.app%2F%3Ffbclid%3DIwAR0Fm6KC9OE184MDR3iH1B_kkEfSGttWdogcLrBFwk9e-2Gcaf716pb3MjA&h=AT0hcvHsV8QPWidjkfj_X_yxsQc6mFEx4r1CqOvHRpuasx9gph3kI6BgiCfYFxGrzdUAGb-3h07Bhy6Ur3YP0ht_j-qy8Bvj3D4VIA9WkvpAUWpj0sDVbZ28K_-F0e6AgsYi0g"
 with st.sidebar:
     chatbot = st.link_button(label="Chatbot", url=link_chatbot)
 
