@@ -12,6 +12,9 @@ target_file = None
 # 'bottom':1,
 # 'hair':2,
 # 'jacket':3
+link_chatbot = "https://9ede-115-73-213-165.ngrok-free.app/?fbclid=IwAR3XBe74e6J9WGtz8nnEMnMnYuSS6PF2QIrViasuutnjEz8PfCPWrDycrLw"
+with st.sidebar:
+    chatbot = st.link_button(label="Chatbot", url=link_chatbot)
 
 
 def main():

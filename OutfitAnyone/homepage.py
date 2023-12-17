@@ -20,7 +20,7 @@ st.markdown(f"""
 # Display the Markdown content
 with st.sidebar:
     fittingRoom = st.link_button(label="Virtual Fitting Room", url=link_fittingRoom)
-    chatBot = st.link_button(label="Chatbott",url=link_chatbot)
+    chatBot = st.link_button(label="Chatbot",url=link_chatbot)
 
 if fittingRoom:
     st.experimental_set_query_params(route="/")
